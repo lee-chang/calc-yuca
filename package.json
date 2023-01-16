@@ -1,0 +1,24 @@
+{
+  "name": "googlespreadsheet-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grapecity/wijmo.purejs.all": "^5.20222.877",
+    "axios": "^1.2.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "google-spreadsheet": "^3.3.0",
+    "handlebars": "^4.7.7",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
