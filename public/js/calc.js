@@ -18,7 +18,7 @@ const obtener_indicadores = async (Q) => {
 try {
     const result = await axios ({
         method: 'get',
-        url:`https://calc-yuca.vercel.app/updateQ/${Q}`,
+        url:`/updateQ/${Q}`,
         responseType: 'json'
     })
     .then ((resp) => {
